@@ -20,15 +20,15 @@ export default async function BlogPage(props: { searchParams: Promise<{ page: st
   return (
     <>
       <div className="space-y-10">
-        <div className="space-y-2 pt-10 pb-8 md:space-y-5 text-center">
-          <h1 className="text-4xl leading-9 tracking-tight text-gray-900 sm:leading-10 md:text-5xl md:leading-14 dark:text-gray-100 lg:text-6xl">
+        <div className="space-y-2 pt-10 pb-8 text-center md:space-y-5">
+          <h1 className="text-4xl leading-9 tracking-tight text-gray-900 sm:leading-10 md:text-5xl md:leading-14 lg:text-6xl dark:text-gray-100">
             &mdash; Blog &mdash;
           </h1>
           {/* <p className="text-xl leading-7 text-gray-500 dark:text-gray-400">
             News & Events
           </p> */}
         </div>
-      
+
         <ListLayout
           posts={posts}
           initialDisplayPosts={initialDisplayPosts}

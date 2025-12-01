@@ -15,22 +15,20 @@ const Header = () => {
   }
 
   return (
-    
     <header className={headerClass}>
-        
-        <div className="site-logo-text">
-          <Link href="/" aria-label={siteMetadata.headerTitle}>
+      <div className="site-logo-text">
+        <Link href="/" aria-label={siteMetadata.headerTitle}>
           {typeof siteMetadata.headerTitle === 'string' ? (
-              <div className="site-title text-5xl md:text-6xl lg:text-7xl">
-                {siteMetadata.headerTitle}
-              </div>
-            ) : (
-              siteMetadata.headerTitle
-            )}
-          </Link>
-        </div>
-        
-        {/* <Link href="/" aria-label={siteMetadata.headerTitle}>
+            <div className="site-title text-5xl md:text-6xl lg:text-7xl">
+              {siteMetadata.headerTitle}
+            </div>
+          ) : (
+            siteMetadata.headerTitle
+          )}
+        </Link>
+      </div>
+
+      {/* <Link href="/" aria-label={siteMetadata.headerTitle}>
         <div className="flex items-center justify-between">
           <div className="mr-3">
             <Logo />
@@ -46,7 +44,7 @@ const Header = () => {
           </div>
         </div>
       </Link> */}
-      
+
       <div className="flex items-center space-x-4 leading-5 sm:-mr-6 sm:space-x-6">
         <div className="no-scrollbar hidden max-w-40 items-center gap-x-4 overflow-x-auto sm:flex md:max-w-72 lg:max-w-96">
           {headerNavLinks
@@ -55,7 +53,7 @@ const Header = () => {
               <Link
                 key={link.title}
                 href={link.href}
-                className="uppercase hover:text-primary-500 dark:hover:text-primary-700 m-1 font-semibold text-lg text-gray-900 dark:text-gray-100"
+                className="hover:text-primary-500 dark:hover:text-primary-700 m-1 text-lg font-semibold text-gray-900 uppercase dark:text-gray-100"
               >
                 {link.title}
               </Link>

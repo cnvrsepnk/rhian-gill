@@ -1,10 +1,9 @@
-"use client"
+'use client'
 
-import * as React from "react"
-import { useTheme } from "next-themes"
+import * as React from 'react'
+import { useTheme } from 'next-themes'
 
-import { Button } from "@headlessui/react"
-
+import { Button } from '@headlessui/react'
 
 const Sun = () => (
   <svg
@@ -32,14 +31,13 @@ const Moon = () => (
 )
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme()
 
   return (
-    <Button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-    >
+    <Button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
       <Sun />
       <Moon />
       <span className="sr-only">Toggle theme</span>
     </Button>
-  );
-};
+  )
+}

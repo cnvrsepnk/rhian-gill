@@ -128,7 +128,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </SearchProvider>
             <Footer />
           </SectionContainer>
-          
         </ThemeProviders>
       </body>
     </html>

@@ -7,8 +7,9 @@
 /* Core theme configuration */
 @theme {
   /* Font families */
-  --font-sans: var(--font-lora), var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-sans:
+    var(--font-lora), var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-serif: var(--font-lusitana), var(--font-lora);
 
   /* Colors */
@@ -61,7 +62,18 @@
   --z-80: 80;
 }
 
-h1, h2, h3, h4, h5, h6, .h-1, .h-2, .h-3, .h-4, .h-5, .h-6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h-1,
+.h-2,
+.h-3,
+.h-4,
+.h-5,
+.h-6 {
   font-family: var(--font-lusitana);
 }
 .site-logo-text {

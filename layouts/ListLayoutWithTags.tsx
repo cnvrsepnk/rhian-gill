@@ -88,7 +88,6 @@ export default function ListLayoutWithTags({
           </h1>
         </div> */}
         <div className="flex sm:space-x-24">
-          
           <div>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
               {displayPosts.map((post) => {
@@ -98,7 +97,7 @@ export default function ListLayoutWithTags({
                     <article className="flex flex-col space-y-2 xl:space-y-0">
                       <dl>
                         <dt className="sr-only">Published on</dt>
-                        <dd className="text-base leading-6 font-medium mb-2 text-gray-500 dark:text-gray-400">
+                        <dd className="mb-2 text-base leading-6 font-medium text-gray-500 dark:text-gray-400">
                           <time dateTime={date} suppressHydrationWarning>
                             {formatDate(date, siteMetadata.locale)}
                           </time>
@@ -106,27 +105,29 @@ export default function ListLayoutWithTags({
                       </dl>
                       <div className="space-y-3">
                         <div>
-                          <h2 className="text-2xl leading-8 mb-2 font-bold tracking-tight">
+                          <h2 className="mb-2 text-2xl leading-8 font-bold tracking-tight">
                             <Link href={`/${path}`} className="text-gray-900 dark:text-gray-100">
                               {title}
                             </Link>
                           </h2>
                           <div className="flex flex-wrap">
-                            {tags?.map((tag) => <Tag key={tag} text={tag} />)}
+                            {tags?.map((tag) => (
+                              <Tag key={tag} text={tag} />
+                            ))}
                           </div>
                         </div>
-                        <div className="mb-8 prose max-w-none text-gray-500 dark:text-gray-400">
+                        <div className="prose mb-8 max-w-none text-gray-500 dark:text-gray-400">
                           {summary}
                         </div>
                         <div className="text-base leading-6 font-medium">
-                        <Link
-                          href={`/${path}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read more: "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link>
-                      </div>
+                          <Link
+                            href={`/${path}`}
+                            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            aria-label={`Read more: "${title}"`}
+                          >
+                            Read more &rarr;
+                          </Link>
+                        </div>
                       </div>
                     </article>
                   </li>
@@ -138,7 +139,7 @@ export default function ListLayoutWithTags({
             )}
           </div>
 
-            <div className="sticky top-[calc(2rem)] hidden h-full max-h-screen max-w-[280px] min-w-[280px] flex-wrap overflow-auto rounded-sm bg-gray-50 pt-5 shadow-md sm:flex dark:bg-gray-900/70 dark:shadow-gray-800/40">
+          <div className="sticky top-[calc(2rem)] hidden h-full max-h-screen max-w-[280px] min-w-[280px] flex-wrap overflow-auto rounded-sm bg-gray-50 pt-5 shadow-md sm:flex dark:bg-gray-900/70 dark:shadow-gray-800/40">
             <div className="px-6 py-4">
               {pathname.startsWith('/blog') ? (
                 <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
@@ -173,7 +174,6 @@ export default function ListLayoutWithTags({
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </>

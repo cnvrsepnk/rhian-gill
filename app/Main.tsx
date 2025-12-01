@@ -8,73 +8,79 @@ import BlueskyProfile from '@/components/BlueskyProfile'
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
-
-
-
   return (
     <>
-      <div className="home pt-10 space-y-20">
-        
-
-        <div className="w-3/4 mx-auto">
+      <div className="home space-y-20 pt-10">
+        <div className="mx-auto w-3/4">
           <div className="flex flex-row">
-            
-            <div className="w-full blurb space-y-2 pb-8 md:space-y-5 text-center">
-              <h1 className="text-4xl leading-9 tracking-tight text-gray-900 sm:leading-10 md:text-5xl md:leading-14 dark:text-gray-100 lg:text-6xl">
-              &mdash; Rhian Gill &mdash;
+            <div className="blurb w-full space-y-2 pb-8 text-center md:space-y-5">
+              <h1 className="text-4xl leading-9 tracking-tight text-gray-900 sm:leading-10 md:text-5xl md:leading-14 lg:text-6xl dark:text-gray-100">
+                &mdash; Rhian Gill &mdash;
               </h1>
               {/* <h2 className="text-2xl leading-9 tracking-tight text-gray-900 sm:text-2xl sm:leading-8 md:text-5xl md:leading-12 dark:text-gray-100 mb-10 text-center">&mdash; Rhian Gill &mdash;</h2> */}
-            
-              <p className="text-xl md:text-2xl leading-7 text-gray-500 dark:text-gray-400">
-              Epic Fantasy Author
+
+              <p className="text-xl leading-7 text-gray-500 md:text-2xl dark:text-gray-400">
+                Epic Fantasy Author
               </p>
               {/* <p className="text-xl leading-7 text-gray-500 dark:text-gray-400">
               Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
               </p> */}
             </div>
           </div>
-
-          
         </div>
 
-        <div className="upcoming-projects alignfull pt-10 pb-10 px-5 md:pt-20 md:pb-30 md:px-20 xl:pt-40 xl:pb-50 xl:px-40 bg-[url(/static/images/moonlit-clouds.jpg)] bg-cover bg-center bg-fixed">
-          <h2 className="text-4xl leading-9 tracking-tight text-gray-100 sm:leading-8 md:text-4xl md:leading-12 dark:text-gray-100 lg:text-5xl mb-10 text-center">
+        <div className="upcoming-projects alignfull bg-[url(/static/images/moonlit-clouds.jpg)] bg-cover bg-fixed bg-center px-5 pt-10 pb-10 md:px-20 md:pt-20 md:pb-30 xl:px-40 xl:pt-40 xl:pb-50">
+          <h2 className="mb-10 text-center text-4xl leading-9 tracking-tight text-gray-100 sm:leading-8 md:text-4xl md:leading-12 lg:text-5xl dark:text-gray-100">
             &mdash; The Shattered Sight Trilogy &mdash;
           </h2>
 
-          <div className="status-wrapper space-y-8 bg-gray-900/50 py-10 px-10 rounded-xl">
+          <div className="status-wrapper space-y-8 rounded-xl bg-gray-900/50 px-10 py-10">
+            <div className="mb-2 flex justify-between text-gray-100">
+              <span className="text-body text-xl font-semibold md:text-2xl">
+                The Cost of Resonance
+              </span>
+              <span className="text-body text-xl font-semibold md:text-2xl">
+                Currently Querying
+              </span>
+            </div>
+            <div className="h-8 w-full rounded-full bg-gray-100">
+              <div className="bg-primary-700 flex h-8 w-full items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+                {' '}
+                100%
+              </div>
+            </div>
 
-          <div className="flex justify-between mb-2 text-gray-100">
-            <span className="text-xl md:text-2xl font-semibold text-body">The Cost of Resonance</span>
-            <span className="text-xl md:text-2xl font-semibold text-body">Currently Querying</span>
-          </div>
-          <div className="w-full bg-gray-100 rounded-full h-8">
-            <div className="bg-primary-700 h-8 rounded-full w-full font-semibold text-white text-center p-0.5 leading-none flex items-center justify-center uppercase"> 100%</div>
-          </div>
+            <div className="mb-2 flex justify-between text-gray-100">
+              <span className="text-body text-xl font-semibold md:text-2xl">
+                Between Order And Chaos
+              </span>
+              <span className="text-body text-xl font-semibold md:text-2xl">First Draft</span>
+            </div>
+            <div className="h-8 w-full rounded-full bg-gray-100">
+              <div className="bg-primary-700 flex h-8 w-[20%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+                {' '}
+                20%
+              </div>
+            </div>
 
-          <div className="flex justify-between mb-2 text-gray-100">
-            <span className="text-xl md:text-2xl font-semibold text-body">Between Order And Chaos</span>
-            <span className="text-xl md:text-2xl font-semibold text-body">First Draft</span>
-          </div>
-          <div className="w-full bg-gray-100 rounded-full h-8">
-            <div className="bg-primary-700 h-8 rounded-full w-[20%] font-semibold text-white text-center p-0.5 leading-none flex items-center justify-center uppercase"> 20%</div>
-          </div>
+            <div className="mb-2 flex justify-between text-gray-100">
+              <span className="text-body text-xl font-semibold md:text-2xl">
+                No Perfect Symmetry
+              </span>
+              <span className="text-body text-xl font-semibold md:text-2xl">Outline</span>
+            </div>
+            <div className="h-8 w-full rounded-full bg-gray-100">
+              <div className="bg-primary-700 flex h-8 w-[50%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+                {' '}
+                50%
+              </div>
+            </div>
 
-          <div className="flex justify-between mb-2 text-gray-100">
-            <span className="text-xl md:text-2xl font-semibold text-body">No Perfect Symmetry</span>
-            <span className="text-xl md:text-2xl font-semibold text-body">Outline</span>
+            <span className="float-right inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-700 inset-ring inset-ring-blue-700/10">
+              Last Updated: <em>12-1-2025</em>
+            </span>
           </div>
-          <div className="w-full bg-gray-100 rounded-full h-8">
-            <div className="bg-primary-700 h-8 rounded-full w-[50%] font-semibold text-white text-center p-0.5 leading-none flex items-center justify-center uppercase"> 50%</div>
-          </div>
-
-          <span className="float-right inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-700 inset-ring inset-ring-blue-700/10">Last Updated: <em>12-1-2025</em></span>
-
-          </div>
-
-
         </div>
-
 
         <div className="flex flex-row space-y-2 pt-6 pb-8 md:space-y-5">
           {/* <div className="newsletter w-1/2">
@@ -88,9 +94,7 @@ export default function Home({ posts }) {
               )}
           </div> */}
 
-
-          <div className="blog lg:w-3/4 mx-auto">
-
+          <div className="blog mx-auto lg:w-3/4">
             <BlueskyProfile />
 
             {/*<h2 className="text-4xl leading-9 tracking-tight text-gray-900 sm:leading-8 md:text-4xl md:leading-12 dark:text-gray-100 lg:text-5xl text-center">
@@ -150,22 +154,9 @@ export default function Home({ posts }) {
             )
           })}
         </ul> */}
-
-
           </div>
         </div>
-
-
-        
-
-
-
-
-
-
       </div>
-     
-      
     </>
   )
 }
