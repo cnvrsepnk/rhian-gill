@@ -29,7 +29,7 @@ export default function Home({ posts }) {
           </div>
         </div>
 
-        <div className="upcoming-projects alignfull bg-[url(/static/images/moonlit-clouds.jpg)] bg-cover bg-fixed bg-center px-5 pt-10 pb-10 md:px-20 md:pt-20 md:pb-30 xl:px-40 xl:pt-40 xl:pb-50">
+        <div className="upcoming-projects alignfull bg-[url(/static/images/moonlit-clouds.jpg)] bg-cover bg-center px-5 pt-10 pb-10 md:bg-fixed md:px-20 md:pt-20 md:pb-30 xl:px-40 xl:pt-40 xl:pb-50">
           <h2 className="mb-10 text-center text-2xl leading-9 tracking-tight text-gray-100 sm:leading-8 md:text-4xl md:leading-12 lg:text-5xl dark:text-gray-100">
             &mdash; The Shattered Sight Trilogy &mdash;
           </h2>
@@ -37,14 +37,16 @@ export default function Home({ posts }) {
           <div className="status-wrapper space-y-8 rounded-xl bg-gray-900/50 px-5 py-10 md:px-10">
             <div className="mb-2 flex justify-between text-gray-100">
               <span className="text-body text-md leading-tight font-semibold md:text-2xl md:leading-normal">
-                The Cost of Resonance
+                <Link className="hover:text-primary-500" href="/books">
+                  The Cost of Resonance
+                </Link>
               </span>
-              <span className="text-body text-md text-right leading-tight font-semibold md:text-2xl md:leading-normal">
+              <span className="text-body text-right text-sm leading-tight font-semibold italic md:text-xl md:leading-normal">
                 Currently Querying
               </span>
             </div>
             <div className="h-8 w-full rounded-full bg-gray-100">
-              <div className="bg-primary-700 flex h-8 w-full items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+              <div className="bg-primary-500 dark:bg-primary-700 flex h-8 w-full items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
                 {' '}
                 100%
               </div>
@@ -54,12 +56,12 @@ export default function Home({ posts }) {
               <span className="text-body text-md leading-tight font-semibold md:text-2xl md:leading-normal">
                 Between Order And Chaos
               </span>
-              <span className="text-body text-md text-right leading-tight font-semibold md:text-2xl md:leading-normal">
+              <span className="text-body text-right text-sm leading-tight font-semibold italic md:text-xl md:leading-normal">
                 First Draft
               </span>
             </div>
             <div className="h-8 w-full rounded-full bg-gray-100">
-              <div className="bg-primary-700 flex h-8 w-[20%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+              <div className="bg-primary-500 dark:bg-primary-700 flex h-8 w-[20%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
                 {' '}
                 20%
               </div>
@@ -69,12 +71,12 @@ export default function Home({ posts }) {
               <span className="text-body text-md leading-tight font-semibold md:text-2xl md:leading-normal">
                 No Perfect Symmetry
               </span>
-              <span className="text-body text-md text-right leading-tight font-semibold md:text-2xl md:leading-normal">
+              <span className="text-body text-right text-sm leading-tight font-semibold italic md:text-xl md:leading-normal">
                 Outline
               </span>
             </div>
             <div className="h-8 w-full rounded-full bg-gray-100">
-              <div className="bg-primary-700 flex h-8 w-[50%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+              <div className="bg-primary-500 dark:bg-primary-700 flex h-8 w-[50%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
                 {' '}
                 50%
               </div>
