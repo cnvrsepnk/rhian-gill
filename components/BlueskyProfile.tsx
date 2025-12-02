@@ -7,7 +7,7 @@ export default async function BlueskyProfile() {
 
   return (
     <div className="container mx-auto space-y-10">
-      <h2 className="text-center text-4xl leading-9 tracking-tight text-gray-900 sm:leading-8 md:text-4xl md:leading-12 lg:text-5xl dark:text-gray-100">
+      <h2 className="text-center text-2xl leading-9 tracking-tight text-gray-900 sm:leading-8 md:text-4xl md:leading-12 lg:text-5xl dark:text-gray-100">
         &mdash; @{handle} &mdash;
       </h2>
       {feed.length > 0 ? (

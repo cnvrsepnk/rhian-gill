@@ -10,7 +10,7 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-      <div className="home space-y-20 pt-10">
+      <div className="home space-y-10 pt-10 md:space-y-20">
         <div className="mx-auto w-3/4">
           <div className="flex flex-row">
             <div className="blurb w-full space-y-2 pb-8 text-center md:space-y-5">
@@ -30,16 +30,16 @@ export default function Home({ posts }) {
         </div>
 
         <div className="upcoming-projects alignfull bg-[url(/static/images/moonlit-clouds.jpg)] bg-cover bg-fixed bg-center px-5 pt-10 pb-10 md:px-20 md:pt-20 md:pb-30 xl:px-40 xl:pt-40 xl:pb-50">
-          <h2 className="mb-10 text-center text-4xl leading-9 tracking-tight text-gray-100 sm:leading-8 md:text-4xl md:leading-12 lg:text-5xl dark:text-gray-100">
+          <h2 className="mb-10 text-center text-2xl leading-9 tracking-tight text-gray-100 sm:leading-8 md:text-4xl md:leading-12 lg:text-5xl dark:text-gray-100">
             &mdash; The Shattered Sight Trilogy &mdash;
           </h2>
 
-          <div className="status-wrapper space-y-8 rounded-xl bg-gray-900/50 px-10 py-10">
+          <div className="status-wrapper space-y-8 rounded-xl bg-gray-900/50 px-5 py-10 md:px-10">
             <div className="mb-2 flex justify-between text-gray-100">
-              <span className="text-body text-xl font-semibold md:text-2xl">
+              <span className="text-body text-md leading-tight font-semibold md:text-2xl md:leading-normal">
                 The Cost of Resonance
               </span>
-              <span className="text-body text-xl font-semibold md:text-2xl">
+              <span className="text-body text-md text-right leading-tight font-semibold md:text-2xl md:leading-normal">
                 Currently Querying
               </span>
             </div>
@@ -51,10 +51,12 @@ export default function Home({ posts }) {
             </div>
 
             <div className="mb-2 flex justify-between text-gray-100">
-              <span className="text-body text-xl font-semibold md:text-2xl">
+              <span className="text-body text-md leading-tight font-semibold md:text-2xl md:leading-normal">
                 Between Order And Chaos
               </span>
-              <span className="text-body text-xl font-semibold md:text-2xl">First Draft</span>
+              <span className="text-body text-md text-right leading-tight font-semibold md:text-2xl md:leading-normal">
+                First Draft
+              </span>
             </div>
             <div className="h-8 w-full rounded-full bg-gray-100">
               <div className="bg-primary-700 flex h-8 w-[20%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
@@ -64,10 +66,12 @@ export default function Home({ posts }) {
             </div>
 
             <div className="mb-2 flex justify-between text-gray-100">
-              <span className="text-body text-xl font-semibold md:text-2xl">
+              <span className="text-body text-md leading-tight font-semibold md:text-2xl md:leading-normal">
                 No Perfect Symmetry
               </span>
-              <span className="text-body text-xl font-semibold md:text-2xl">Outline</span>
+              <span className="text-body text-md text-right leading-tight font-semibold md:text-2xl md:leading-normal">
+                Outline
+              </span>
             </div>
             <div className="h-8 w-full rounded-full bg-gray-100">
               <div className="bg-primary-700 flex h-8 w-[50%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
