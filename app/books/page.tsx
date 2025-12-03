@@ -58,11 +58,11 @@ export default function Books() {
                   elite status for a quiet life of independence and solitude.
                 </p>
                 <p className="text-md">
-                  During a routine mission he is drawn to the signal of a would-be Pair – Iah, a
-                  prickly recluse who has inexplicably evaded mandatory recruitment. After she
-                  accidentally wields a spectral power un-Paired, Elim seizes his chance and
-                  convinces her of a temporary partnership, desperate to break free of the Cynod’s
-                  iron grip.
+                  During a routine mission he is drawn to the signal of a would-be Pair and
+                  discovers Iah, a prickly recluse who has inexplicably evaded mandatory
+                  recruitment. After she does the impossible and wields a spectral power un-Paired,
+                  Elim seizes his chance – desperate to break free of the Cynod’s iron grip, he
+                  convinces her of a temporary partnership and they flee.
                 </p>
                 <p className="text-md">
                   On the run, they become entangled with Soren Entorial, a charismatic spymaster who
