@@ -53,9 +53,9 @@ export default function Books() {
                 <p className="text-md">
                   Born into a world where eye color determines magical ability, Spectra Elim
                   ax’Tenebris is bound to serve the Cynod, an influential, militaristic organization
-                  whose recruits must Pair with one another to utilize their powers. But Elim is
-                  much more interested in the freedoms of commoneyes, and would gladly exchange his
-                  elite status for a quiet life of independence and solitude.
+                  whose recruits must Pair with one another to unlock their powers. But Elim is much
+                  more interested in the freedoms of commoneyes, and would gladly exchange his elite
+                  status for a quiet life of independence and solitude.
                 </p>
                 <p className="text-md">
                   During a routine mission he is drawn to the signal of a would-be Pair and
