@@ -61,9 +61,9 @@ export default function Home({ posts }) {
               </span>
             </div>
             <div className="h-8 w-full rounded-full bg-gray-100">
-              <div className="bg-primary-500 dark:bg-primary-700 flex h-8 w-[20%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
+              <div className="bg-primary-500 dark:bg-primary-700 flex h-8 w-[25%] items-center justify-center rounded-full p-0.5 text-center leading-none font-semibold text-white uppercase">
                 {' '}
-                20%
+                25%
               </div>
             </div>
 
@@ -83,7 +83,7 @@ export default function Home({ posts }) {
             </div>
 
             <span className="float-right inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-700 inset-ring inset-ring-blue-700/10">
-              Last Updated: <em>12-1-2025</em>
+              Last Updated: <em>12-19-2025</em>
             </span>
           </div>
         </div>
