@@ -15,7 +15,7 @@ const PostCard = ({ item }) => {
   }
 
   return (
-    <div className="rounded-xl bg-gray-100 p-8 transition-all duration-300 hover:scale-[1.02] hover:shadow-md dark:bg-gray-900/70 dark:hover:shadow-2xl">
+    <div className="rounded-xl bg-gray-100 p-8 transition-all duration-300 hover:scale-[1.02] hover:shadow-md dark:bg-gray-800/70 dark:hover:shadow-2xl">
       {author.handle !== 'ifbookscouldgill.bsky.social' && (
         <p className="mb-2 text-sm text-gray-500">Reposted by Rhian Gill</p>
       )}

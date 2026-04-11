@@ -41,7 +41,7 @@ export default function Books() {
     </div> */}
             </div>
 
-            <div className="flex flex-col justify-between bg-gray-100 p-4 leading-normal dark:bg-gray-900/70">
+            <div className="flex flex-col justify-between bg-gray-100 p-4 leading-normal dark:bg-gray-800/70">
               <div className="mb-8 space-y-5">
                 {/* <span className="w-40 float-right inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-bold text-blue-700 inset-ring inset-ring-blue-700/10">CURRENTLY QUERYING</span> */}
                 {/* <h2 className="text-2xl leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-8 md:text-4xl md:leading-12 dark:text-gray-100 mb-0 font-bold">
