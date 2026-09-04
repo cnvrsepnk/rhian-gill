@@ -83,7 +83,7 @@ export default function Home({ posts }) {
             </div>
 
             <span className="float-right inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-700 inset-ring inset-ring-blue-700/10">
-              Last Updated: <em>06-24-2026</em>
+              Last Updated: <em>09-04-2026</em>
             </span>
           </div>
         </div>

@@ -51,30 +51,24 @@ export default function Books() {
           </h3> */}
 
                 <p className="text-md">
-                  Born into a world where eye color determines magical ability, Spectra Elim
-                  ax’Tenebris is bound to serve the Cynod, an influential, militaristic organization
-                  whose recruits must Pair with one another to unlock their powers. But Elim is much
-                  more interested in the freedoms of commoneyes, and would gladly exchange his elite
-                  status for a quiet life of independence and solitude.
+                  Born into a world where eye color betrays magical ability, Elim ax’Tenebris, an
+                  elite Spectra, is bound to serve the militaristic Cynod, whose conscripts must
+                  always pair with one another to utilize their powers. But despite his prestige,
+                  Elim yearns for the independence and quiet solitude afforded only to commoneyes –
+                  a dream that comes miraculously within reach when he discovers Iah, a prickly
+                  recluse with the impossible ability to wield spectral power un-paired. With no
+                  desire to fall prey to the machinations of the Cynod, Iah reluctantly agrees to a
+                  temporary partnership, and together, they flee.
                 </p>
                 <p className="text-md">
-                  During a routine mission he is drawn to the signal of a would-be Pair and
-                  discovers Iah, a prickly recluse who has inexplicably evaded mandatory
-                  recruitment. After she does the impossible and wields a spectral power un-Paired,
-                  Elim seizes his chance – desperate to break free of the Cynod’s iron grip, he
-                  convinces her of a temporary partnership and they flee.
-                </p>
-                <p className="text-md">
-                  On the run, they become entangled with Soren Entorial, a charismatic spymaster who
-                  is investigating a slew of kidnappings that seem linked to Iah’s cryptic dreams.
-                  Determined to confront her demons and discover the truth behind her rule-breaking
-                  magic, Iah ignores Elim’s warnings and agrees to aid Soren in his search for the
-                  missing commoneyes.
-                </p>
-                <p className="text-md">
-                  But her burgeoning powers attract more than just agents of the Cynod – an unseen
-                  threat lurks patiently behind the murky veil of Iah’s past. The Wound must be
-                  repaired, and The Stranded will not be denied.
+                  On the run, they become entangled with Soren Entorial, a pragmatic spymaster
+                  investigating a slew of commoneye kidnappings that seem inexplicably linked to
+                  Iah’s cryptic dreams of starved, mad prisoners, and an ancient order mired in a
+                  shattered world. Determined to confront her demons and discover the truth behind
+                  her rule-breaking magic, Iah ignores Elim’s warnings and agrees to aid Soren in
+                  his search for the missing commoneyes. But her burgeoning powers attract more than
+                  just agents of the Cynod – an unseen threat lurks patiently behind the murky veil
+                  of Iah’s past. The Wound must be repaired, and the Stranded will not be denied.
                 </p>
               </div>
               {/* <div className="flex items-center">
