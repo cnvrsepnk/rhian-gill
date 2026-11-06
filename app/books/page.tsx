@@ -50,9 +50,7 @@ export default function Books() {
             Book One of The Shattered Sight
           </h3> */}
 
-                <p className="text-md">
-                  He wants to hide from the world. She wants to rejoin it.
-                </p>
+                <p className="text-md">He wants to hide from the world. She wants to rejoin it.</p>
                 <p className="text-md">
                   Born into a world where eye color betrays magical ability, Elim ax’Tenebris, an
                   elite Spectra, is bound to serve the militaristic Cynod, whose conscripts must
